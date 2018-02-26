@@ -9,7 +9,7 @@ from PIL import Image
 import pytesseract
 import webbrowser
 
-class Positons():
+class Positions():
 
     def __init__(self):
         self.mouse = pymouse.PyMouse()
@@ -71,7 +71,7 @@ class Positons():
         return text
 
 '''
-a = Positons()
+a = Positions()
 (x1,y1,x2,y2) = a.get_point()
 region = CG.CGRectMake(x1,y1,x2,y2)
 file_path = "/Users/didi/Safe/Study/MyFun/screeshot.png"
